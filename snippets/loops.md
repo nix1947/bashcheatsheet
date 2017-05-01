@@ -1,6 +1,6 @@
 # Bash loops
 
-## Syntax
+## Syntax 
 
 ```bash
 # Bash for loop syntax
@@ -8,28 +8,29 @@ for variable in hello world; do echo $variable; done
 ```
 
 
-## TODO: For loop more examples
+## TODO: Add more for loop examples 
 
-## Bash while loop syntax
+## while loop syntax
 
 ```bash
 while [ condition ]
 do 
-	# your logic 
+	# your logic goes here
 done
 ```
 
-## While loop example to print odd no
+## While loop example to print odd number
 
 ```bash
 #!/bin/bash
 #Purpose: To print odd no 
+
 n=1
 while [ $n -le 100 ]
     do
         echo $n
-        n=$((n + 2)) # syntax to peform math operation in bash $((expression))
+        n=$((n + 2)) # syntax to peform math operation in bash shell $((expression))
     done
 ```
 
-## While loop example to print even no only
+## TODO: While loop example to print even 

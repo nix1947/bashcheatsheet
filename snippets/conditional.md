@@ -3,7 +3,7 @@
 ```bash
 
 #!/bin/bash
-#purpose: Program to compare a string
+#purpose: Program to compare two strings
 
 NAME="manoj"
 
@@ -17,7 +17,7 @@ fi
 
 
 ```bash
-#Program to comare integer using -eq
+#Program to compare integer using -eq test command.
 
 if [ $x -eq $y ]
 then
@@ -26,11 +26,11 @@ else
 	echo "$x and $y are not equal"
 fi
 
-# Program that implement if elif and else 
+# Program that implements if elif and else conditional clause
 
 if [ -e "$HOME/.vimrc" ]
 then
-	echo "vimrc file exist"
+	echo "vimrc file exists"
 
 	if [ -L "$HOME/.vimrc" ]
 	then 
@@ -42,6 +42,6 @@ then
 		echo "vimrc is not a symbolic link "
 	fi
 else
-	echo "vimrc file not exist"
+	echo "vimrc file not exists"
 fi
 ```
